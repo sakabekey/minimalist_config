@@ -1,19 +1,21 @@
--- theme
-vim.pack.add({ src = "https://github.com/catppuccin/nvim", name = "catppuccin" })
--- lualine
-vim.pack.add({'https://github.com/nvim-tree/nvim-web-devicons'})
-vim.pack.add({'https://github.com/nvim-lualine/lualine.nvim'})
+vim.pack.add({
+  -- theme
+  { src = "https://github.com/catppuccin/nvim", name = "catppuccin" },
+  -- lualine
+  'ttps://github.com/nvim-tree/nvim-web-devicons',
+  'https://github.com/nvim-lualine/lualine.nvim',
 
-vim.pack.add({'https://github.com/neovim/nvim-lspconfig'})
-vim.pack.add({'https://github.com/folke/which-key.nvim.git'})
-vim.pack.add({{src='https://github.com/Saghen/blink.cmp.git', version="v1.8.0"}})
-vim.pack.add({'https://github.com/stevearc/oil.nvim.git'})
+  'https://github.com/neovim/nvim-lspconfig',
+  'https://github.com/folke/which-key.nvim.git',
+  {src='https://github.com/Saghen/blink.cmp.git', version="v1.8.0"},
+  'https://github.com/stevearc/oil.nvim.git',
 
--- Typescript
-vim.pack.add({"https://github.com/nvim-lua/plenary.nvim"})
-vim.pack.add({"https://github.com/pmizio/typescript-tools.nvim"})
+  -- Typescript
+  "https://github.com/nvim-lua/plenary.nvim",
+  "https://github.com/pmizio/typescript-tools.nvim",
 
-vim.pack.add({"https://github.com/jiaoshijie/undotree.git"})
+  "https://github.com/jiaoshijie/undotree.git",
+})
 
 -- Done specifying packages. Update them all!
 vim.pack.update(nil, {force=true})
