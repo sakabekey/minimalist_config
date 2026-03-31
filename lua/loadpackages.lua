@@ -2,7 +2,7 @@ vim.pack.add({
   -- theme
   { src = "https://github.com/catppuccin/nvim", name = "catppuccin" },
   -- lualine
-  'ttps://github.com/nvim-tree/nvim-web-devicons',
+  'https://github.com/nvim-tree/nvim-web-devicons',
   'https://github.com/nvim-lualine/lualine.nvim',
 
   'https://github.com/neovim/nvim-lspconfig',
