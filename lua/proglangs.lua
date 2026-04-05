@@ -1,3 +1,3 @@
 -- Typescript
 
-require("typescript-tools").setup{}
+-- require("typescript-tools").setup{}
